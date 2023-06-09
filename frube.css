@@ -19,15 +19,16 @@ body {
   display: flex;
   font-size: 1.618em;
   font-weight: bold;
-  margin: 1em;
+  justify-content: center;
+  margin: 5vh;
   min-height: 100vh;
   line-height: 2;
 }
 
 samp {
+  font: unset;
   font-size: 2em;
 }
-
 
 .sestra { font-size: 1.11111111em }
 .curate { transform: rotate(88deg) }
@@ -67,20 +68,13 @@ menu a {
 }
 
 s { text-decoration: wavy underline }
+address { font: unset }
 em { font: unset }
 i { font: unset }
-kbd { font: unset }
-address { font: unset }
-
-@media (orientation: portrait) {
-  .grace {
-    margin-inline: 2em;
-    writing-mode: vertical-rl;
-  }
-}
+u { font: unset }
 
 :focus {
-  outline: .5ex outset;
+  outline: .5ex inset;
   text-decoration-style: dotted;
 }
 
@@ -118,12 +112,6 @@ address { font: unset }
     background-color: deepskyblue;
   }
 
-  h1 {
-    display: flex;
-    flex-flow: column;
-    word-spacing: 1ch;
-  }
-
   .pinata {
     text-shadow:
       -1vw -1vh 0 deeppink,
@@ -154,7 +142,7 @@ address { font: unset }
       4vw 4vh 0 sandybrown,
       5vw 5vh 0 mediumorchid,
       6vw 6vh 0 mediumpurple,
-      7vw 7vh 0 #bae;
+      7vw 7vh 0 crimson;
   }
 
   .sliver {
@@ -165,6 +153,6 @@ address { font: unset }
       -4vw 4vh 0 sandybrown,
       -5vw 5vh 0 mediumorchid,
       -6vw 6vh 0 mediumpurple,
-      -7vw 7vh 0 #bae;
+      -7vw 7vh 0 crimson;
   }
 }
